@@ -3,30 +3,20 @@
 
 # 7DOS Grafana Plugin
 
-A Bayesian network is a probabilistic graphical model 
-(a type of statistical model) that represents a set of 
-variables and their conditional dependencies via a 
-directed acyclic graph (DAG). Bayesian networks are ideal
-for taking an event that occurred and predicting the 
-likelihood that any one of several possible known causes
-was the contributing factor.
+A Bayesian network is a probabilistic graphical model (a type of statistical model) that represents a set of variables and their conditional dependencies via a directed acyclic graph (DAG). Bayesian networks are idealfor taking an event that occurred and predicting the likelihood that any one of several possible known causes was the contributing factor.
 
 More details in [Wikipedia.](https://en.wikipedia.org/wiki/Bayesian_network)
 
 ## The plugin
 ![//Plugin screenshot here](SCREENSHOT.PNG "Screenshot of the plugin node-flux connection page")
 
-Our plugin gets flows of information from one or more 
-inputs and can perform a probabilistic inference through 
-several steps:
-1. Read a Bayesian network definition from a .json file
-2. Set a data source which stores data flows
-3. Associate flows to network's nodes 
-4. Perform probabilistic inference
-6. Write results in a database. In our case InfluxDB is 
-the default one   
-5. Display the results with Grafana default panel 
-(Graph, Singlestat, etc)
+Our plugin gets flows of information from one or more inputs and can perform a probabilistic inference through several steps:
+1. Read a Bayesian network definition from a .json file;
+2. Set a data source which stores data flows;
+3. Associate flows to network's nodes;
+4. Perform probabilistic inference;
+6. Write results in a database. In our case InfluxDB is the default one;
+7. Display the results with Grafana default panel (Graph, Singlestat, etc);
 
 ## How to Build
 
@@ -36,9 +26,8 @@ npm run build
 ```
 
 ## Development team
-We are Computer Science students at [University of Padua](https://www.unipd.it/). 
-The plugin have been developed for Software Engineering 
-course.
+We are Computer Science students at [University of Padua](https://www.unipd.it/).
+The plugin has been developed for Software Engineering course.
 
 
 7DOS is composed of seven members:
@@ -49,3 +38,6 @@ course.
 - [Marco Costantino](https://github.com/UdrK)
 - [Michele Roverato](https://github.com/ScrappyCocco)
 - [Nicolò Tartaggia](https://github.com/NicoloTartaggia)
+
+## Project Documentation
+The project documents are [here](https://github.com/ScrappyCocco/7DOS-Docs) (only available in Italian).
