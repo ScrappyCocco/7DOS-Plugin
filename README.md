@@ -3,7 +3,7 @@
 
 # 7DOS Grafana Plugin
 
-A Bayesian network is a probabilistic graphical model (a type of statistical model) that represents a set of variables and their conditional dependencies via a directed acyclic graph (DAG). Bayesian networks are idealfor taking an event that occurred and predicting the likelihood that any one of several possible known causes was the contributing factor.
+A Bayesian network is a probabilistic graphical model (a type of statistical model) that represents a set of variables and their conditional dependencies via a directed acyclic graph (DAG). Bayesian networks are ideal for taking an event that occurred and predicting the likelihood that any one of several possible known causes was the contributing factor.
 
 More details in [Wikipedia.](https://en.wikipedia.org/wiki/Bayesian_network)
 
